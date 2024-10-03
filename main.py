@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten
 from tensorflow.keras.utils import to_categorical
 
 healthy_dir = 'saudaveis'
-problematic_dir = 'problematicas'
+problematic_dir = 'problematic'
 
 def load_images_from_folder(folder, label, img_size=(128, 128)):
     images = []
